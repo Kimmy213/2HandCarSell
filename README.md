@@ -3,7 +3,7 @@
 this project is about Dashboard and Hightlight
 especially, graph and things for the owner to understand the data.
 
-<img src="https://github.com/ApP0s/2HandCarSell/blob/main/webgi.gif?raw=true" alt="screenshot" width="750" height="400/">
+<img src="https://github.com/Kimmy213/2HandCarSell/blob/main/2handcar.gif" alt="screenshot" width="750" height="400/">
 
 ## Tool for this project
 *   React
@@ -27,7 +27,7 @@ Here're some of the project's best features:
 <p>1. Clone this repository</p>
 
 ```
-$   git clone https://github.com/Thanadon-Ruangpakdee/2HandCarSell.git
+$   git clone https://github.com/Kimmy213/2HandCarSell.git
 ```
 
 <p>2. Go into the repository</p>
