@@ -1,0 +1,78 @@
+.pie-chart-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+  height: 100vh;
+  box-sizing: border-box;
+  background-color: white;
+}
+ 
+.pie-chart-container h2 {
+  margin-bottom: 10px;
+}
+ 
+.pie-chart-container canvas {
+  max-width: 80%;
+  max-height: 80%;
+  border: 1px solid #333;
+  padding: 5px;
+  border-radius: 15px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+ 
+.labels-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+ 
+.clear-button-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+  width: 100%; /* ปรับให้ครอบคลุมความกว้างทั้งหมด */
+}
+ 
+.clear-button {
+  background-color: transparent; /* พื้นหลังโปร่งใส */
+  color: rgb(122, 122, 122); /* สีตัวอักษรสีดำ */
+  border: 2px solid rgb(121, 121, 121); /* กรอบสีดำ */
+  padding: 0.1px 0;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+  width: 100%; /* ใช้ความกว้างเต็มที่ */
+  max-width: 1000px; /* กำหนดขนาดสูงสุด */
+  text-align: center; /* ตำแหน่งตัวอักษรอยู่ตรงกลาง */
+}
+ 
+.clear-button:hover {
+  background-color: #d9534f; /* สีที่เข้มขึ้นเมื่อ hover */
+  color: white; /* เปลี่ยนสีตัวอักษรเป็นสีขาวเมื่อ hover */
+}
+ 
+ 
+ 
+.brand-label {
+  margin: 0 10px;
+  font-size: 1rem;
+  transition: color 0.3s, font-weight 0.3s, background-color 0.3s, padding 0.3s;
+  cursor: pointer;
+}
+ 
+.brand-label:hover {
+  color: blue;
+  background-color: transparent;
+  font-weight: bold;
+}
+ 
+.brand-label-active {
+  color: white;
+  background-color: black;
+  padding: 2px 6px;
+  border-radius: 4px;
+}
