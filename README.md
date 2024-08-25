@@ -2,7 +2,7 @@
 
 This project focuses on providing a comprehensive dashboard and highlight features, with an emphasis on visualizations and graphs to help users gain insights from the data.
 
-<img src="https://github.com/Thanadon-Ruangpakdee/2HandCarSell/blob/main/2handcar.gif" alt="screenshot" width="750" height="400/">
+<img src="https://github.com/Kimmy213/2HandCarSell/blob/main/2handcar.gif" alt="screenshot" width="750" height="400/">
 
 ## Tool for this project
 
@@ -33,7 +33,7 @@ Explore some of the standout features of this project:
 <p>1. Clone this repository</p>
 
 ```
-$   git clone https://github.com/Thanadon-Ruangpakdee/2HandCarSell.git
+$   git clone https://github.com/Kimmy213/2HandCarSell.git
 ```
 
 <p>2. Go into the repository</p>
