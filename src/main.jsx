@@ -2,14 +2,14 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import Root from './pages/root';
-import Dashboard from './pages/Dashboard';
-import HighlightedCars from './pages/HighlightedCars';
-import CarList from './pages/Carlist';
-import Welcome from './pages/Welcome';  // Import the Welcome component
+import Dashboard from './pages/DashboardPage';
+import HighlightedCars from './pages/HighlightedCarsPage';
+import CarList from './pages/CarListPage';
+import Welcome from './pages/WelcomePage';  
 import './index.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-// Set the basename to '/car-analys'
+
 const router = createBrowserRouter(
   [
     {
@@ -17,29 +17,14 @@ const router = createBrowserRouter(
       element: <Root />,
       errorElement: <div>404 not Found</div>,
       children: [
-        {
-          path: '/',
-          element: <Welcome />,  // Set Welcome as the default page
-        },
-        {
-          path: '/dashboard',
-          element: <Dashboard />,
-        },
-        {
-          path: '/Hightlight',
-          element: <HighlightedCars />,
-        },
-        {
-          path: '/Car',
-          element: <CarList />,
-        }
-
+        { path: '/', element: <Welcome />, },
+        { path: '/Dashboard', element: <Dashboard />, },
+        { path: '/Hightlight', element: <HighlightedCars />,},
+        { path: '/CarList', element: <CarList />, }
       ],
     },
   ],
-  {
-    basename: '/car-analys',
-  }
+  { basename: '/2HandCarSell', }
 );
 
 ReactDOM.createRoot(document.getElementById('root')).render(

@@ -1,5 +1,10 @@
 .table-container {
-  max-width: 60%;
-  margin: 0 auto; 
-  padding: 10px;
+  width: 80%; 
+  margin: 20px auto; 
+  padding: 15px; 
+  background-color: #f9f9f9;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
 }
+
